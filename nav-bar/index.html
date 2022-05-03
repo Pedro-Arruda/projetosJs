@@ -4,9 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Nav Bar</title>
 </head>
 <body>
     
+    <nav>
+        <div>
+            <h1>Codding Addict</h1>
+        </div>
+
+        <div class="menu-principal">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <div class="redes-sociais">
+            <ul>
+                <li>
+                  <a href="https://www.twitter.com">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com">
+                    <i class="fab fa-behance"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com">
+                    <i class="fab fa-sketch"></i>
+                  </a>
+                </li>
+              </ul>
+        </div>
+
+        <div class="btn-responsivo">
+            <button onclick="abreMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="menu-responsivo">
+        <ul class="menu-mobile">
+            <li>Home</li>
+            <li>About</li>
+            <li>Projets</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
