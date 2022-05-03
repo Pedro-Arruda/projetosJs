@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #374151;
+    font-size: 28px;
+}
+.container {
+    height: 300px;
+    margin: 100px auto;
+    max-width: 1200px;
+    border-radius: 80px;
+}
+
+h1 {
+    color: #bbbec2;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    width: 900px;
+}
+
+.menu .form {
+    margin: 20px 0;
+}
+
+#area-lista {
+    width: 900px;
+    margin: 50px auto;
+}
+
+#lista-de-tarefas {
+    font-size: 32px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+button, input {
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+button {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.form button {
+    color: #fff;
+    background-image: linear-gradient(to right, #EC4899, #8B5CF6);
+    border-radius: 20px;
+    font-size: 0.8em;
+}
+
+.nova-tarefa {
+    color: #fff;
+    display: flex;
+}
+
+input {
+    background-color: #1F2937;
+    border-radius: 20px;
+    border: #1F2937;
+    color: #fff;
+    width: 500px;
+    font-size: 1em;
+}
+
+li {
+    background-color: #111827;
+    border-radius: 20px;
+    padding: 10px;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    margin-top: 20px    ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.finalizado, .excluir {
+    color: #fff;
+    font-size: 0.6em;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.excluir {
+    color: red;
+}
+
+.tarefa-feita {
+    text-decoration: line-through;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h1>Lista de Tarefas</h1>
+            <div class="form">
+                <input type="text" id="tarefa" placeholder="Digite uma tarefa">
+
+                <button id="btn-tarefa" onclick="criaTarefa()">Criar tarefa</button>
+                <button id="remove" onclick="removeTarefas()">Limpar Lista</button>
+            </div>
+        </div>
+        <div id="area-lista">
+            <ul id="lista-de-tarefas">
+
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
