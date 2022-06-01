@@ -19,15 +19,18 @@ h1 {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 50px auto;
+    width: 90%;
 }
 
 .linha-projetos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 60px;
+    grid-gap: 50px;
+    margin: 0 auto;
     margin-top: 100px;
+    width: 90%;
 }
 
 .area-imagem {
@@ -38,8 +41,13 @@ h1 {
     box-shadow: 5px 5px 10px -3px #000000;
 }
 
+.projeto:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
 .img-projeto {
-    width: 400px;
+    width: 100%;
     height: 100%;
 }
 
@@ -53,4 +61,18 @@ h1 {
 .area-titulo h3 {
     padding: 15px;
     letter-spacing: 3px;
+}
+
+@media screen and (max-width: 1070px) {
+    
+    .linha-projetos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    .linha-projetos {
+        grid-template-columns: 1fr;
+    }
 }
